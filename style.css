@@ -32,6 +32,18 @@ strong {
   color: hsl(160deg, 100%, 30%);
 }
 
+.title {
+  width: fit-content;
+  padding: 10px 24px;
+  margin-left: -24px;
+  border-radius: 1px;
+  transition: background-color 0.3s cubic-bezier(0.25,0.1,0.25,1);
+}
+.title:hover {
+background-color: #009966;
+color: white;
+}
+
 .indented-heading {
   background-color: hsl(45deg, 100%, 50%);
   width: fit-content;
